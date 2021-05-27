@@ -1,3 +1,7 @@
-function checkPalindrome(str){
-    return str.split('').reverse().join('') === str
-}
+const checkWord = (str) => {
+
+        return str.split('').reverse().join('') === str
+
+    }
+
+
